@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: .625rem;
+    overflow: hidden;
+}
+#score_board{
+    position: absolute;
+    width: 8rem;
+    background: #442a21;
+    height: 3.5rem;
+    border: 3px outset black;
+    left: 1rem;
+    align-items: center;
+    top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#score_board h3{
+    font-size: 2.5rem;
+    position: relative;
+    right: 1rem;
+    color: white;
+    font-weight: 400;
+}

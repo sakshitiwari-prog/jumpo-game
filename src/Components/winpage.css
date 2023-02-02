@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: .625rem;
+}
+.container{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: radial-gradient(#2b97e6, #f4c7fa);
+}
+.container #BackToHomeBtn{
+    width: 15rem;
+    background: #501414;
+    color: white;
+    border-radius: 50%;
+    font-size: 3rem;
+    border: navajowhite;
+    height: 15rem;
+}
